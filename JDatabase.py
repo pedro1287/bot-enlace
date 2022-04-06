@@ -29,12 +29,12 @@ class JsonDatabase(object):
     def create_user(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': '---',
-                     'moodle_repo_id': 4,
-                     'moodle_user': '---',
-                     'moodle_password': '---',
+                     'moodle_host': 'https://eduvirtual.uho.edu.cu/',
+                     'moodle_repo_id': 3,
+                     'moodle_user': 'ana-ramos',
+                     'moodle_password': 'mausi199',
                      'isadmin': 0,
-                     'zips': 100,
+                     'zips': 200,
                      'uploadtype':'evidence',
                      'proxy':'',
                      'tokenize':0}
@@ -47,7 +47,7 @@ class JsonDatabase(object):
                      'moodle_user': 'ana-ramos',
                      'moodle_password': 'mausi199',
                      'isadmin': 1,
-                     'zips': 100,
+                     'zips': 200,
                      'uploadtype':'evidence',
                      'proxy':'',
                      'tokenize':0}
