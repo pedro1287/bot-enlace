@@ -137,7 +137,7 @@ def processUploadFiles(filename,filesize,files,update,bot,message,thread=None,jd
 def processFile(update,bot,message,file,thread=None,jdb=None):
     file_size = get_file_size(file)
     getUser = jdb.get_user(update.message.sender.username)
-    max_file_size = 1024 * 1024 * getUser['zips']
+    max_file_size = 10240 * 10240 * getUser['zips']
     file_upload_count = 0
     client = None
     findex = 0
