@@ -43,7 +43,7 @@ class JsonDatabase(object):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
                      'moodle_host': 'https://eduvirtual.uho.edu.cu/',
-                     'moodle_repo_id': 4,
+                     'moodle_repo_id': 3,
                      'moodle_user': 'ana-ramos',
                      'moodle_password': 'mausi199',
                      'isadmin': 1,
