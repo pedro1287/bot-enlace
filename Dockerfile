@@ -1,4 +1,4 @@
-FROM python:3.8.10
+FROM python:
 
 RUN apt-get update && apt-get install --yes pipenv
 
